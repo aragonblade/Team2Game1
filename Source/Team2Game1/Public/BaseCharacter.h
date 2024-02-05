@@ -23,7 +23,7 @@ public:
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 	virtual void InitializeDefaultAttributes()const;
 
-private:
+protected:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<USkeletalMeshComponent> CharacterMesh;
 

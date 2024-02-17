@@ -6,8 +6,10 @@
 #include "AbilitySystemInterface.h"
 #include "GameplayEffect.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "BaseCharacter.generated.h"
 
+class UCameraComponent;
 class UAbilitySystemComponent;
 class UAttributeSet;
 
@@ -17,12 +19,18 @@ class TEAM2GAME1_API ABaseCharacter : public ACharacter, public IAbilitySystemIn
 	GENERATED_BODY()
 
 public:
-
+	
 	ABaseCharacter();
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	UAttributeSet* GetAttributeSet() const { return AttributeSet; }
 	virtual void InitializeDefaultAttributes()const;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Camera")
+	UCameraComponent* CameraComponent;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Camera")
+	USpringArmComponent* SpringArmComponent;
+	
 protected:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<USkeletalMeshComponent> CharacterMesh;

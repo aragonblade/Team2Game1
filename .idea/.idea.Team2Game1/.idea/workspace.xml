@@ -10,7 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb67b07-8325-4260-991c-df83d5d626a8" name="Changes" comment="" />
+    <list default="true" id="abb67b07-8325-4260-991c-df83d5d626a8" name="Changes" comment="- character">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/T2G1_GameplayTag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/T2G1_GameplayTag.h" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,6 +251,7 @@
       <workItem from="1708095589948" duration="1805000" />
       <workItem from="1708159642685" duration="586000" />
       <workItem from="1708160504550" duration="12306000" />
+      <workItem from="1708240302515" duration="4993000" />
     </task>
     <servers />
   </component>

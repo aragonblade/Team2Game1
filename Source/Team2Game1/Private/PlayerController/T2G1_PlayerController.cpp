@@ -26,6 +26,12 @@ void AT2G1_PlayerController::SetupInputComponent()
 	{
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::Move);
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::MouseLook);
+		// Jumping
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Jump);
+		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::JumpStop);
+		// Crouching
+		EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Crouch);
+		EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::UnCrouch);
 	}
 }
 
@@ -50,4 +56,26 @@ void AT2G1_PlayerController::MouseLook(const FInputActionValue& InputActionValue
 	AddYawInput(LookAxisVector.X);
 	AddPitchInput(-LookAxisVector.Y);
 
+}
+
+void AT2G1_PlayerController::Jump(const FInputActionValue& InputActionValue)
+{
+	GetCharacter()->Jump();
+}
+
+void AT2G1_PlayerController::JumpStop(const FInputActionValue& InputActionValue)
+{
+	GetCharacter()->StopJumping();
+}
+
+void AT2G1_PlayerController::Crouch(const FInputActionValue& InputActionValue)
+{
+	GetCharacter()->Crouch();
+	UE_LOG(LogTemp, Warning, TEXT("Crouch"));
+}
+
+void AT2G1_PlayerController::UnCrouch(const FInputActionValue& InputActionValue)
+{
+	GetCharacter()->UnCrouch();
+	UE_LOG(LogTemp, Warning, TEXT("UnCrouch"));
 }

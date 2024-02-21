@@ -29,7 +29,10 @@ public:
 protected:
 	void Move(const FInputActionValue& InputActionValue);
 	void MouseLook(const FInputActionValue& InputActionValue);
-	
+	void Jump(const FInputActionValue& InputActionValue);
+	void JumpStop(const FInputActionValue& InputActionValue);
+	void Crouch(const FInputActionValue& InputActionValue);
+	void UnCrouch(const FInputActionValue& InputActionValue);
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<UInputMappingContext> InputMappingContext;
@@ -39,4 +42,10 @@ private:
 
 	UPROPERTY(EditAnywhere, Category= "Input", meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<UInputAction> LookAction;
+	
+	UPROPERTY(EDitAnywhere, Category="Input", meta=(AllowPrivateAccess = "true"))
+	TObjectPtr<UInputAction> JumpAction;
+
+	UPROPERTY(EditAnywhere, Category="Input", meta=(AllowPrivateAccess = "true"))
+	TObjectPtr<UInputAction> CrouchAction;
 };

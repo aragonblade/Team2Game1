@@ -15,7 +15,9 @@ void UT2G1_AnimInstance::NativeBeginPlay()
 {
 	Super::NativeBeginPlay();
 	OwningCharacter = Cast<ACharacter>(TryGetPawnOwner());
-
+	MovementComponent = OwningCharacter->GetCharacterMovement();
+	OwningPlayerController = Cast<APlayerController>(OwningCharacter->GetController());
+	
 	check(OwningCharacter)
 
 }
@@ -25,17 +27,28 @@ void UT2G1_AnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 	Super::NativeUpdateAnimation(DeltaSeconds);
 	if (OwningCharacter)
 	{
-	
 
+		
 		const FRotator Rotation = OwningCharacter->GetActorRotation();
 		//FRotator DeltaRotation = Rotation - LastRotation;
-		const FVector MovementVelocity = OwningCharacter->GetVelocity();
-
+		MovementVelocity = OwningCharacter->GetVelocity();
+		
 		Speed = MovementVelocity.Size();
+		if (MovementComponent->GetCurrentAcceleration() != FVector::ZeroVector && Speed > 3.0f)
+		{
+			bShouldMove = true;
+		}
+		else
+		{
+			bShouldMove = false;
+		}
+
+		
 
 		Direction = UKismetAnimationLibrary::CalculateDirection(MovementVelocity, Rotation);
-
-		bEnableJump = OwningCharacter->GetCharacterMovement()->IsFalling();
+		
+		bCrouching = MovementComponent->IsCrouching();
+		bEnableJump = MovementComponent->IsFalling();
 	}
 	
 }

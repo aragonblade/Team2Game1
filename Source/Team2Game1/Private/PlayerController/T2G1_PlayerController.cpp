@@ -79,3 +79,4 @@ void AT2G1_PlayerController::UnCrouch(const FInputActionValue& InputActionValue)
 	GetCharacter()->UnCrouch();
 	UE_LOG(LogTemp, Warning, TEXT("UnCrouch"));
 }
+	

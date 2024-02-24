@@ -12,18 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="abb67b07-8325-4260-991c-df83d5d626a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_T2G1AnimInstance.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_T2G1AnimInstance.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Character/Player/BP_T2G1Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Character/Player/BP_T2G1Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/GameMode/BP_T2G1GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GameMode/BP_T2G1GameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Input/IA_MouseLook.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Input/IA_Move.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Input/T2G1_IMC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Input/T2G1_IMC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/PlayerController/BP_T2G1PlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/PlayerController/BP_T2G1PlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Animations/T2G1_AnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Animations/T2G1_AnimInstance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerController/T2G1_PlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerController/T2G1_PlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Animations/T2G1_AnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Animations/T2G1_AnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/FT2G1_GameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/FT2G1_GameplayTags.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/PlayerController/T2G1_PlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/PlayerController/T2G1_PlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team2Game1.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Team2Game1.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +213,8 @@
       <workItem from="1708447787653" duration="71000" />
       <workItem from="1708448228861" duration="1567000" />
       <workItem from="1708522768970" duration="7902000" />
+      <workItem from="1708598864959" duration="6525000" />
+      <workItem from="1708707287946" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="gameplay tags">
       <option name="closed" value="true" />

@@ -57,5 +57,13 @@ protected:
 	virtual void InitAbilityActorInfo();
 
 	virtual void ApplyEffectToSelf(TSubclassOf<UGameplayEffect> AttributesGameplayEffect, float Level) const;
+
+	void AddCharacterAbilities();
+	
+private:
+	UPROPERTY(EditAnywhere, Category= "GAS|Abilities")
+	TArray<TSubclassOf<UGameplayAbility>> StartupAbilities;
+
+	
 	
 };

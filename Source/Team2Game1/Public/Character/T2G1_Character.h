@@ -17,4 +17,9 @@ class TEAM2GAME1_API AT2G1_Character : public ABaseCharacter
 
 public:
 	virtual void BeginDestroy() override;
+
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void OnRep_PlayerState() override;
+private:
+	virtual void InitAbilityActorInfo();
 };

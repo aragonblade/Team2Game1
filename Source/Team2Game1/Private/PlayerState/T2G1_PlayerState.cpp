@@ -4,11 +4,11 @@
 #include "PlayerState/T2G1_PlayerState.h"
 
 #include "Attributes/T2G1_AttributeSet.h"
-#include "GameplayAbility/AbilitySystemComponent/BaseAbilitySystemComponent.h"
+#include "GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.h"
 
 AT2G1_PlayerState::AT2G1_PlayerState()
 {
-	AbilitySystemComponent = CreateDefaultSubobject<UBaseAbilitySystemComponent>("Ability System Component");
+	AbilitySystemComponent = CreateDefaultSubobject<UT2G1_AbilitySystemComponent>("Ability System Component");
 	AbilitySystemComponent->SetIsReplicated(true);
 
 	AbilitySystemComponent->SetReplicationMode(EGameplayEffectReplicationMode::Mixed);

@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
-#include "BaseAbilitySystemComponent.generated.h"
+#include "T2G1_AbilitySystemComponent.generated.h"
+
 DECLARE_MULTICAST_DELEGATE_OneParam(FEffectAssetTags,const FGameplayTagContainer&);
 /**
  * 
  */
 UCLASS()
-class TEAM2GAME1_API UBaseAbilitySystemComponent : public UAbilitySystemComponent
+class TEAM2GAME1_API UT2G1_AbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
 public:

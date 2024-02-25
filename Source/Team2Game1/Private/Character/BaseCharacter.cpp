@@ -1,10 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "BaseCharacter.h"
+#include "Character/BaseCharacter.h"
 
 #include "AbilitySystemComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.h"
 
 class UGameplayEffect;
 
@@ -60,12 +61,21 @@ void ABaseCharacter::ApplyEffectToSelf(TSubclassOf<UGameplayEffect> AttributesGa
 {
 	check(IsValid(GetAbilitySystemComponent()));
 	check(AttributesGameplayEffect);
-	
+
 	FGameplayEffectContextHandle ContextHandle = GetAbilitySystemComponent()->MakeEffectContext();
 	ContextHandle.AddSourceObject(this);
 	
 	const FGameplayEffectSpecHandle SpecHandle = GetAbilitySystemComponent()->MakeOutgoingSpec(AttributesGameplayEffect, Level, ContextHandle);
 	GetAbilitySystemComponent()->ApplyGameplayEffectSpecToTarget(*SpecHandle.Data.Get(), GetAbilitySystemComponent());
 
+}
+
+void ABaseCharacter::AddCharacterAbilities()
+{
+	if (HasAuthority())
+	{
+		UT2G1_AbilitySystemComponent* T2G1ASC = CastChecked<UT2G1_AbilitySystemComponent>(AbilitySystemComponent);
+		T2G1ASC->AddCharacterAbilities(StartupAbilities);
+	}
 }
 

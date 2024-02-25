@@ -11,9 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb67b07-8325-4260-991c-df83d5d626a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerController/T2G1_PlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerController/T2G1_PlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team2Game1.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Team2Game1.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/BaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/BaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/EnemyBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/EnemyBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/AbilitySystemComponent/BaseAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerState/T2G1_PlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerState/T2G1_PlayerState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/BaseCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1_Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1_Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/GameplayAbility/AbilitySystemComponent/BaseAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +221,10 @@
       <workItem from="1708448228861" duration="1567000" />
       <workItem from="1708522768970" duration="7902000" />
       <workItem from="1708598864959" duration="6525000" />
-      <workItem from="1708707287946" duration="3820000" />
+      <workItem from="1708707287946" duration="3870000" />
+      <workItem from="1708854617374" duration="67000" />
+      <workItem from="1708855568283" duration="193000" />
+      <workItem from="1708869925706" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="gameplay tags">
       <option name="closed" value="true" />

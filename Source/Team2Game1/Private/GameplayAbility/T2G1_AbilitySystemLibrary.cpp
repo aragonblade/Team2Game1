@@ -18,7 +18,7 @@ bool UT2G1_AbilitySystemLibrary::IsNotFriend(AActor* FirstActor, AActor* SecondA
 	return !bFriends;
 }
 
-void UT2G1_AbilitySystemLibrary::GiveStartupAbilites(const UObject* WorldContextObject, UAbilitySystemComponent* ASC,
+void UT2G1_AbilitySystemLibrary::GiveStartupAbilities(const UObject* WorldContextObject, UAbilitySystemComponent* ASC,
 	ECharacterClass CharacterClass)
 {
 	UCharacterClassInfo* CharacterClassInfo = GetCharacterClassInfo(WorldContextObject);

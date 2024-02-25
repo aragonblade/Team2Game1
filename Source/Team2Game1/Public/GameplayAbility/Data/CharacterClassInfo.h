@@ -10,9 +10,8 @@
 class UGameplayAbility;
 class UGameplayEffect;
 class UCharacterClassInfo;
-
 UENUM(BlueprintType)
-enum ECharacterClass
+enum class ECharacterClass : uint8
 {
 	Elf,
 	Ork,

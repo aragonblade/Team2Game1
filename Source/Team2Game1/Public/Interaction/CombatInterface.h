@@ -24,18 +24,17 @@ struct FTaggedMontage
 	USoundBase* ImpactSound = nullptr;
 };
 
-UINTERFACE(MinimalAPI)
+UINTERFACE(MinimalAPI, BlueprintType)
 class UCombatInterface : public UInterface
 {
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class TEAM2GAME1_API ICombatInterface
 {
 	GENERATED_BODY()
 
 public:
+	virtual int32 GetPlayerLevel();
+	
 };

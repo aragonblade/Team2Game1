@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "BaseCharacter.h"
+#include "T2G1CharacterBase.h"
 #include "EnemyBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TEAM2GAME1_API AEnemyBase : public ABaseCharacter
+class TEAM2GAME1_API AEnemyBase : public AT2G1CharacterBase
 {
 	GENERATED_BODY()
 public:

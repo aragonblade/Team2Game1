@@ -29,6 +29,16 @@ void UT2G1_AbilitySystemLibrary::GiveStartupAbilities(const UObject* WorldContex
 			FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(AbilityClass, 1);
 			ASC->GiveAbility(AbilitySpec);
 		}
+		const FCharacterClassDefaultInfo& DefaultInfo = CharacterClassInfo->GetCharacterClassDefaultInfo(CharacterClass);
+		for (auto AbilityClass : DefaultInfo.StartupAbilities)
+		{
+			ICombatInterface* CombatInterface = Cast<ICombatInterface>(ASC->GetAvatarActor());
+			if (CombatInterface)
+			{
+				FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(AbilityClass, CombatInterface->GetPlayerLevel());
+				ASC->GiveAbility(AbilitySpec);
+			}
+		}
 		
 	}
 }

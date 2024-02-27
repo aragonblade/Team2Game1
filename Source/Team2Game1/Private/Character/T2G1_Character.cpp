@@ -20,7 +20,6 @@ AT2G1_Character::AT2G1_Character()
 	
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComponent"));
 	CameraComponent->SetupAttachment(SpringArmComponent);
-	
 }
 
 void AT2G1_Character::BeginDestroy()
@@ -44,6 +43,13 @@ void AT2G1_Character::OnRep_PlayerState()
 	Super::OnRep_PlayerState();
 	// init ability actor info for client, replicated from server
 	InitAbilityActorInfo();
+}
+
+int32 AT2G1_Character::GetPlayerLevel()
+{
+	const AT2G1_PlayerState* T2G1PlayerState = GetPlayerState<AT2G1_PlayerState>();
+	check(T2G1PlayerState);
+	return T2G1PlayerState->GetPlayerLevel();
 }
 
 void AT2G1_Character::InitAbilityActorInfo()

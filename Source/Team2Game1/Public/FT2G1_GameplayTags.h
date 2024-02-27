@@ -50,6 +50,11 @@ public:
  FGameplayTag FireAbility;
  FGameplayTag SpellAbility;
 
+ FGameplayTag CombatSocket_Weapon;
+ FGameplayTag CombatSocket_LeftHand;
+ FGameplayTag CombatSocket_RightHand;
+ FGameplayTag CombatSocket_Tail;
+ 
 private:
  static FT2G1_GameplayTags GameplayTags;
  

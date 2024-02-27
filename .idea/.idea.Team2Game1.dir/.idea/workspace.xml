@@ -9,107 +9,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f0b922f2-3c9b-496f-8c1b-4515ff52650a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team2Game1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Aim_Space_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Aim_Space_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/BS_CrouchWalk.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/BS_Jog.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Idle_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Idle_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Lt_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_Walk_Rt_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_to_Stand_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Death_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Death_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Death_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Death_Ironsights_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Death_Ironsights_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Equip_Pistol_Standing.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Equip_Rifle_Standing.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Fire_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Fire_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Fire_Shotgun_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Fire_Shotgun_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Hit_React_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Hit_React_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Hit_React_3.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Hit_React_4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Idle_Pistol.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Idle_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Idle_Rifle_Hip_Break1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Idle_Rifle_Hip_Break2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Idle_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jog_Bwd_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jog_Fwd_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jog_Lt_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jog_Rt_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jump_From_Jog.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jump_From_Stand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Jump_From_Stand_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Death_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Death_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Fire_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Fire_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Reload_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_Reload_Shotgun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Prone_To_Stand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Reload_Pistol.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Reload_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Reload_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Reload_Shotgun_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Reload_Shotgun_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Showcase.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Sprint_Fwd_Rifle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Stand_To_Prone.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Stand_to_Crouch_Rifle_Hip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Stand_to_Crouch_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_Body.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_PhysicsAsset.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4Man_Logo_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_LOGO_CARD.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_MAT_MASKA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin__normals.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/UE4_Mannequin/Textures/UE4_Mannequin_occlusion_Mobile.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Ue4ASP_Character.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Walk_Bwd_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Walk_Fwd_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Walk_Lt_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AnimStarterPack/Walk_Rt_Rifle_Ironsights.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_T2G1AnimInstance.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_T2G1AnimInstance.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Character/Player/Animations/ABP_Test.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/FPS_AnimBP_v2/Meshes/Weapons/FPS_Rifle_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/FPS_AnimBP_v2/Meshes/Weapons/FPS_Rifle_Skeleton.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprint/Character/Player/BP_T2G1Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Character/Player/BP_T2G1Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/GameMode/BP_T2G1GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GameMode/BP_T2G1GameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/BaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/T2G1CharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/T2G1_Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/T2G1_Character.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/T2G1_AbilitySystemLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/T2G1_AbilitySystemLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Interaction/CombatInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Interaction/CombatInterface.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerState/T2G1_PlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/PlayerState/T2G1_PlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/BaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1CharacterBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/EnemyBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/EnemyBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1_Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1_Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Levels/TestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Levels/TestLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/T2G1CharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/Character/T2G1CharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/FT2G1_GameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/FT2G1_GameplayTags.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/Abilities/T2G1_ShootingAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Private/GameplayAbility/Abilities/T2G1_ShootingAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1CharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Character/T2G1CharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/FT2G1_GameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/FT2G1_GameplayTags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/GameplayAbility/Abilities/T2G1_ShootingAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/GameplayAbility/Abilities/T2G1_ShootingAbility.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/Interaction/CombatInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/Interaction/CombatInterface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Team2Game1/Public/PlayerState/T2G1_PlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Team2Game1/Public/PlayerState/T2G1_PlayerState.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,12 +30,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Team2Game1/Private/Character/BaseCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Team2Game1/Public/Character/BaseCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Team2Game1/Public/GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Team2Game1/Team2Game1.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Team2Game1/Team2Game1.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -265,7 +175,7 @@
       <workItem from="1708833060177" duration="11968000" />
       <workItem from="1708950954577" duration="8088000" />
       <workItem from="1709039001196" duration="973000" />
-      <workItem from="1709043962946" duration="645000" />
+      <workItem from="1709043962946" duration="7644000" />
     </task>
     <servers />
   </component>

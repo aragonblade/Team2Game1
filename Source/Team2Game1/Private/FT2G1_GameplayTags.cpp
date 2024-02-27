@@ -34,5 +34,10 @@ void FT2G1_GameplayTags::InitializeNativeGameplayTags()
 	//damge
 	GameplayTags.FireAbility = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("FireAbility"));
 	GameplayTags.SpellAbility = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("SpellAbility"));
-	
+
+
+	GameplayTags.CombatSocket_Weapon = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("CombatSocket.Weapon"));
+	GameplayTags.CombatSocket_LeftHand = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("CombatSocket.LeftHand"));
+	GameplayTags.CombatSocket_RightHand = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("CombatSocket.RightHand"));
+	GameplayTags.CombatSocket_Tail = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("CombatSocket.Tail"));
 }

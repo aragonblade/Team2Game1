@@ -32,13 +32,26 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Camera")
 	USpringArmComponent* SpringArmComponent;
 
-	
+	UPROPERTY(EditAnywhere, Category= "Combat")
+	FName WeaponTipSocketName;
+
+	UPROPERTY(EditAnywhere, Category= "Combat")
+	FName LeftHandSocketName;
+
+	UPROPERTY(EditAnywhere, Category= "Combat")
+	FName RightHandSocketName;
+
+	UPROPERTY(EditAnywhere, Category= "Combat")
+	FName TailSocketName;
+
 
 #pragma region ICombatInterface
 	virtual int32 GetPlayerLevel() override;
 
 	UPROPERTY(EditAnywhere, Category= "Combat")
 	TObjectPtr<USkeletalMeshComponent> WeaponMesh;
+
+	virtual FVector GetCombatSocketLocation_Implementation(const FGameplayTag& SocketTag) override;
 #pragma endregion
 	
 	

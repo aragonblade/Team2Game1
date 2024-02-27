@@ -36,5 +36,7 @@ class TEAM2GAME1_API ICombatInterface
 
 public:
 	virtual int32 GetPlayerLevel();
-	
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	FVector GetCombatSocketLocation(const FGameplayTag& SocketTag);
 };

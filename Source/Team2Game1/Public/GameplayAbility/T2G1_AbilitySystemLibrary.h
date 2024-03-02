@@ -6,6 +6,7 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "T2G1_AbilitySystemLibrary.generated.h"
 
+class UAbilitySystemComponent;
 class UCharacterClassInfo;
 /**
  * 

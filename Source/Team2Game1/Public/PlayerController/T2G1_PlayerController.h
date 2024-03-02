@@ -3,10 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
 #include "GameFramework/PlayerController.h"
+#include "GameplayTagContainer.h"
 #include "T2G1_PlayerController.generated.h"
 
+class UT2G1_InputConfig;
+class UT2G1_AbilitySystemComponent;
 class UInputAction;
 struct FInputActionValue;
 /**
@@ -26,6 +28,8 @@ public:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
 
+	UT2G1_AbilitySystemComponent* GetASC();
+	TObjectPtr<UT2G1_AbilitySystemComponent> T2G1_AbilitySystemComponent;
 protected:
 	void Move(const FInputActionValue& InputActionValue);
 	void MouseLook(const FInputActionValue& InputActionValue);
@@ -33,6 +37,10 @@ protected:
 	void JumpStop(const FInputActionValue& InputActionValue);
 	void Crouch(const FInputActionValue& InputActionValue);
 	void UnCrouch(const FInputActionValue& InputActionValue);
+
+
+
+	
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<UInputMappingContext> InputMappingContext;
@@ -48,4 +56,12 @@ private:
 
 	UPROPERTY(EditAnywhere, Category="Input", meta=(AllowPrivateAccess = "true"))
 	TObjectPtr<UInputAction> CrouchAction;
+	
+	UPROPERTY(EditAnywhere, Category="Input", meta=(AllowPrivateAccess = "true"))
+	TObjectPtr<UT2G1_InputConfig> InputConfig;
+
+
+	void AbilityInputTagPressed(FGameplayTag InputTag);
+	void AbilityInputTagReleased(FGameplayTag InputTag);
 };
+	

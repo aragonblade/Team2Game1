@@ -33,9 +33,10 @@ void AT2G1_Character::BeginDestroy()
 void AT2G1_Character::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
-	
 	InitAbilityActorInfo();
 	AddCharacterAbilities();
+	
+	UE_LOG(LogTemp, Warning, TEXT("PossessedBy"));
 }
 
 void AT2G1_Character::OnRep_PlayerState()

@@ -2,9 +2,14 @@
 
 
 #include "PlayerController/T2G1_PlayerController.h"
-#include "EnhancedInputSubsystems.h"
 
-#include "EnhancedInputComponent.h"
+#include "AbilitySystemBlueprintLibrary.h"
+#include "EnhancedInputSubsystems.h"
+#include "GameplayTagContainer.h"
+#include "GameFramework/Character.h"
+#include "GameplayAbility/AbilitySystemComponent/T2G1_AbilitySystemComponent.h"
+#include "Input/T2G1_EnhancedInputComponent.h"
+
 
 AT2G1_PlayerController::AT2G1_PlayerController()
 {
@@ -22,17 +27,32 @@ void AT2G1_PlayerController::BeginPlay()
 void AT2G1_PlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
-	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(InputComponent))
+	if (UT2G1_EnhancedInputComponent* T2G1_EnhancedInputComponent = Cast<UT2G1_EnhancedInputComponent>(InputComponent))
 	{
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::Move);
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::MouseLook);
+		T2G1_EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::Move);
+		T2G1_EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AT2G1_PlayerController::MouseLook);
 		// Jumping
-		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Jump);
-		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::JumpStop);
+		T2G1_EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Jump);
+		T2G1_EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::JumpStop);
 		// Crouching
-		EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Crouch);
-		EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::UnCrouch);
+		T2G1_EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Started, this, &AT2G1_PlayerController::Crouch);
+		T2G1_EnhancedInputComponent->BindAction(CrouchAction, ETriggerEvent::Completed, this, &AT2G1_PlayerController::UnCrouch);
+
+		//T2G1_EnhancedInputComponent->BindAbilityActions(InputConfig, this, &ThisClass::AbilityInputPressed, &ThisClass::AbilityInputReleased, &ThisClass::AbilityInputHeld);
+		T2G1_EnhancedInputComponent->BindAbilityActions(InputConfig, this,
+			&ThisClass::AbilityInputTagPressed,
+			&ThisClass::AbilityInputTagReleased);		
+	
 	}
+}
+
+UT2G1_AbilitySystemComponent* AT2G1_PlayerController::GetASC()
+{
+	if (T2G1_AbilitySystemComponent == nullptr)
+	{
+		T2G1_AbilitySystemComponent = Cast<UT2G1_AbilitySystemComponent>(UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(GetPawn<APawn>()));
+	}
+	return T2G1_AbilitySystemComponent;
 }
 
 void AT2G1_PlayerController::Move(const FInputActionValue& InputActionValue)
@@ -79,4 +99,13 @@ void AT2G1_PlayerController::UnCrouch(const FInputActionValue& InputActionValue)
 	GetCharacter()->UnCrouch();
 	UE_LOG(LogTemp, Warning, TEXT("UnCrouch"));
 }
-	
+
+void AT2G1_PlayerController::AbilityInputTagPressed(FGameplayTag InputTag)
+{
+	GetASC()->AbilityInputTagHeld(InputTag);
+}
+
+void AT2G1_PlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
+{
+	GetASC()->AbilityInputTagReleased(InputTag);
+}
